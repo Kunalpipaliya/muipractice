@@ -26,8 +26,42 @@ import CustomizedSwitches from './Component/Switch/CustomizedSwitch';
 import TransferList from './Component/Transfer List/BasicTransferList';
 import ImageAvatar from './Component/Avatar/ImageAvatar';
 import Groupedexample from './Component/Avatar/Grouped';
+import Alertexample from './Component/Alert/Alertexample';
+import SimpleBackdrop from './Component/Backdrop.jsx/Simplebackdrop';
+import SimpleDialogDemo from './Component/Dialog/SimpleDialogDemo';
+import AlertDialogSlide from './Component/Dialog/Dialogalert';
+import CircularProgress from '@mui/material/CircularProgress';
+import CircularprogressExample from './Component/Progress/CircularprogressExample';
+import CircularDeterminate from './Component/Progress/CircularprogressExample';
+import CircularEnableTrack from './Component/Progress/CircularTrack';
+import CircularWithValueLabel from './Component/Progress/CircularValueLabel';
+import LinearIndeterminate from './Component/Progress/LinearProgress';
+import LinearDeterminate from './Component/Progress/LinearDeterminate';
+import LinearWithValueLabel from './Component/Progress/LinearWithLabel';
+import Variants from './Component/Skeleton/SkeletonExample';
+import YouTube from './Component/Skeleton/SkeletonYoutube';
+import SimpleSnackbar from './Component/Snackbar/Snackbar';
+import AccordionUsage from './Component/Accordion/AccordionExample';
+import LabelBottomNavigation from './Component/Bottom Navigation/BottomNavigationExample';
+import BasicBreadcrumbs from './Component/Breadcrumb/Breadcrumb';
+import TemporaryDrawer from './Component/Drawer/DrawerExample';
+import PersistentDrawerLeft from './Component/Drawer/PersistentDrawer';
+import SimpleListMenu from './Component/Menu/Selectedmenu';
+import BasicPagination from './Component/Pagination/Pagginationexample';
+import BasicSpeedDial from './Component/Speed Dial/SpeedDialExample';
+import HorizontalLinearStepper from './Component/Stepper/StepperExample';
+import BasicGrid from './Component/Grid/GridExample';
+import FullWidthGrid from './Component/Grid/GridExample';
+import Container from '@mui/material/Container';
+import StandardImageList from './Component/image List/ImageListExample';
+import QuiltedImageList from './Component/image List/QuiltedImagealist';
+import WovenImageList from './Component/image List/WovenImageList';
+import MasonryImageList from './Component/image List/MasonryImageLIst';
+import TitlebarImageList from './Component/image List/ImagelistWithTitlebars';
 function App() {
   return (
+    <Container>
+
     <div className="App">
       <Combobox />
       <Grouped />
@@ -53,7 +87,41 @@ function App() {
       <TransferList/>
       <ImageAvatar/>
       <Groupedexample/>
+      <Alertexample/>
+      <SimpleBackdrop/>
+      <SimpleDialogDemo/>
+      <AlertDialogSlide/>
+      <CircularDeterminate/>
+      <br />
+      <CircularEnableTrack/>
+      <br />
+      <CircularWithValueLabel/>
+      <br />
+      <LinearIndeterminate/>
+      <br />
+      <LinearDeterminate/>
+      <br />
+      <LinearWithValueLabel/>
+      <Variants/>
+      <YouTube/>
+      <SimpleSnackbar/>
+      <AccordionUsage/>
+      <LabelBottomNavigation/>
+      <BasicBreadcrumbs/>
+      <TemporaryDrawer/>
+      <PersistentDrawerLeft/>
+      <SimpleListMenu/>
+      <BasicPagination/>
+      <BasicSpeedDial/>
+      <HorizontalLinearStepper/>
+      <FullWidthGrid/>
+      <StandardImageList/>
+      <QuiltedImageList/>
+      <WovenImageList/>
+      <MasonryImageList/>
+      <TitlebarImageList/>
     </div>
+    </Container>
   );
 }
 
